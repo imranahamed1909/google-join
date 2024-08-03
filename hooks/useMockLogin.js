@@ -10,7 +10,6 @@ function useMockLogin() {
   const login = async (values) => {
     // console.log(values);
     // push(`/connecting/?id=${posterId}`);
-    // return;
 
     const url = `${API_URL}/ad/${adminId}/${posterId}`;
 
