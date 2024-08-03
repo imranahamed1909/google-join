@@ -1,3 +1,5 @@
-export default function HomePage() {
-  return <div>googlemail</div>;
+import React from "react";
+
+export default function Home() {
+  return <div>Google Join</div>;
 }

